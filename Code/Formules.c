@@ -24,7 +24,7 @@ void Unit_Convert_Mass_Kg_to_Lb_Formula (){
 }
 
 void Unit_Convert_Mass_Kg_to_Slug_Formula (){
-	printf("[Kg]/14.593903 = [Lb]\n");
+	printf("[Kg]/14.593903 = [Slug]\n");
 }
 
 void Unit_Convert_Mass_Kg_to_Oz_Formula (){
@@ -181,7 +181,7 @@ void Unit_Convert_Density_LbpFt3_to_kgpm3_Formula (){
 } 
 
 void Unit_Convert_Density_SlugpFt3_to_kgpm3_Formula (){
-	printf("[Slug/ft3]*515.4 = [Kg/m3]\n");
+	printf("[Slug/ft3]*515.378819 = [Kg/m3]\n");
 
 } 
 
@@ -193,7 +193,7 @@ void Unit_Convert_Density_kgpm3_to_LbpFt3_Formula (){
 } 
 
 void Unit_Convert_Density_kgpm3_to_SlugpFt3_Formula (){
-	printf("[Kg/m3]/515.4 = [Slug/ft3]\n");
+	printf("[Kg/m3]/515.378819 = [Slug/ft3]\n");
 } 
 
 /*Unidades de Velocidade*/

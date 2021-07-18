@@ -110,7 +110,6 @@ void mass_interface (char line[MAX]){
 		if((3 == sscanf(line , "%s to %s %f" , unit[1] , unit[2] , &number)) && (mass_check(unit[1])) && (mass_check(unit[2]))){
 				/*Lê Input e Verifica unidades para conversão*/
 				/*Unidade origem*/
-				printf("%s && %s\n" , unit[1] , unit[2]); /*Para retirar*/
 				if(strcmp(unit[1] , "kg")==0){}
 
 				if(strcmp(unit[1] , "lb")==0)	
@@ -199,7 +198,6 @@ void distance_interface (char line[MAX]){
 		if((3 == sscanf(line , "%s to %s %f" , unit[1] , unit[2] , &number)) && distance_check(unit[1]) && distance_check(unit[2])){
 				/*Lê Input e Verifica unidades para conversão*/
 				/*Unidade origem*/
-				printf("%s && %s\n" , unit[1] , unit[2]);
 				if(strcmp(unit[1] , "m")==0){}
 
 				if(strcmp(unit[1] , "ft")==0)	
@@ -301,7 +299,6 @@ void volume_interface (char line[MAX]){
 			
 				/*Verifica unidades para conversão*/
 				/*Unidade origem*/
-				printf("%s && %s\n" , unit[1] , unit[2]);
 				if(strcmp(unit[1] , "l")==0){}
 
 				if(strcmp(unit[1] , "ukgal")==0)	

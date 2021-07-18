@@ -225,7 +225,7 @@ float Unit_Convert_Density_LbpFt3_to_kgpm3 (float density){
 } 
 
 float Unit_Convert_Density_SlugpFt3_to_kgpm3 (float density){
-	float fct = 515.4;
+	float fct = 515.378819;
 	return (density*fct);
 } 
 
@@ -237,7 +237,7 @@ float Unit_Convert_Density_kgpm3_to_LbpFt3 (float density){
 } 
 
 float Unit_Convert_Density_kgpm3_to_SlugpFt3 (float density){
-	float fct = 515.4;
+	float fct = 515.378819;
 	return (density/fct);
 } 
 
